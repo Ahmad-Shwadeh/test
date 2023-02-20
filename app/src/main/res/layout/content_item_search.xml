@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginTop="50dp"
+       >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:orientation="horizontal"
+          android:id="@+id/layneredit"
+          android:layout_margin="5dp"
+          android:background="#19487A"
+          >
+         <EditText
+             android:id="@+id/txt_item_name"
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:layout_weight="1"
+             android:paddingRight="5dp"
+             android:ems="10"
+             android:layout_marginLeft="1dp"
+             android:layout_marginRight="1dp"
+             android:hint="@string/Items"
+             android:gravity="left"
+             android:backgroundTint="@color/white"
+             android:textColorHint="@color/white"
+             android:textColor="@color/white"
+             />
+         <requestFocus />
+
+
+
+      </LinearLayout>
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/serach_list"
+          android:layout_width="fill_parent"
+          android:layout_height="match_parent"
+          android:layout_gravity="fill"
+          android:layout_margin="5dp" />
+   </LinearLayout>
+</RelativeLayout>

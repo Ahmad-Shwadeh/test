@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:id="@+id/panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="1dp"
+        android:background="#1FBAA2"
+        >
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="N"
+            android:gravity="center"
+            android:fontFamily="@font/font_bold"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/generalNAme"
+            android:fontFamily="@font/font_bold"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            />
+
+
+
+        <TextView
+            android:id="@+id/qty_stb"
+            android:layout_marginLeft="10dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="stat balance"
+            android:fontFamily="@font/font_bold"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:id="@+id/qty_perchaues"
+            android:layout_marginLeft="10dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="puer"
+            android:fontFamily="@font/font_bold"
+            android:textSize="20sp"
+            android:textColor="#FFEBEB"
+          />
+
+        <TextView
+            android:id="@+id/qty_sales"
+            android:layout_marginLeft="10dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="sales"
+            android:fontFamily="@font/font_bold"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+           />
+
+        <TextView
+            android:id="@+id/qty_balance"
+            android:layout_marginLeft="10dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="balance"
+            android:fontFamily="@font/font_bold"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
