@@ -24,4 +24,7 @@ class ActivityFirst : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
       return false
     }
+    fun firstCommite(){
+      print("test")
+    }
 }
